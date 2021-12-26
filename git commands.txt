@@ -1,0 +1,74 @@
+
+
+notepad++ .bash_profile
+alias vvn='notepad++.exe -multilnst -nosession'
+
+git config --global core.editor "notepad++.exe -multilnst -nosession'
+
+git config --global --list
+
+git config --blobal -e
+
+
+git config clone https://github.com/rritsoft/clone-my-html.git
+
+
+git add images/
+
+or  
+
+git add .
+
+git commit       --    type: initial commit
+git commit
+
+
+git remote add origion http:url 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[user]
+        name = rritsoft
+        email = rritsoftwaresolutions@gmail.com
+[gui]
+        recentrepo = C:/Users/hai/Desktop/gg
+
